@@ -29,7 +29,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.Greeter</mainClass>
+                            <mainClass>com.manoj.greet.Greeter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
