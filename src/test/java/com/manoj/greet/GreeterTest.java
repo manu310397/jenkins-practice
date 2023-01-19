@@ -23,4 +23,11 @@ public class GreeterTest {
 
         assertThat(greeter.greet(someone), containsString(someone));
     }
+
+    @Test
+    public void greetShouldIncludeTheOneBeingGreeted1() {
+        String someone = "Second Test";
+
+        assertThat(greeter.greet(someone), containsString(someone));
+    }
 }
